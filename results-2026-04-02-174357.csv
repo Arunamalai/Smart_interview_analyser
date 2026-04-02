@@ -1,0 +1,7 @@
+id,question,answer,answer_quality,communication,confidence,final_score,timestamp
+"1","Explain supervised learning","Supervised learning is a type of machine learning where a model is trained using labeled data, meaning the input data is already paired with the correct answer (the ""label""). The model learns the relationship between inputs and outputs so it can accurately predict the label of new, unseen data. ","5","6","6","5.5","2026-04-02 12:29:10"
+"2","Explain supervised learning","the still smell of old bearings it takes heat to bring out the order a cold storage find with him tacos Alpha store are my favourite is just for food is the hard cross bun","2","6.6","6","4.12","2026-04-02 12:32:39"
+"30001","Explain supervised learning","Supervised learning is a core branch of machine learning where models are trained on labeled datasets, meaning each input is paired with a specific, known output. The primary goal is to learn a mapping function from inputs to outputs so the model can accurately predict labels for new, unseen data.","5","6","6","5.5","2026-04-02 11:27:58"
+"60001","Explain supervised learning","Supervised learning is a type of machine learning where a model learns from labelled data, meaning each input has a correct output. The model compares its predictions with actual results and improves over time to increase accuracy.
+
+","5","7.2","6","5.74","2026-04-02 12:02:19"
