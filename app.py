@@ -236,20 +236,6 @@ def generate_feedback(nlp, scores, emotion):
 
     return feedback
 
-#  SCORING
-def calculate_score(nlp, emotion):
-    quality = min(nlp["keyword_score"] + 2, 10)
-    communication = (10 if nlp["avg_len"] < 20 else 6) * 0.7 + nlp["grammar"] * 0.3
-    confidence = 9 if emotion == "confident" else 6 if emotion == "neutral" else 3
-
-    final = quality * 0.5 + communication * 0.2 + confidence * 0.3
-
-    return {
-        "answer_quality": round(quality,2),
-        "communication": round(communication,2),
-        "confidence": confidence,
-        "final_score": round(final,2)
-    }
 
 #DB Connection
 
